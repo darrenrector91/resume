@@ -1,0 +1,32 @@
+<!-- Contact Info -->
+                <div class="col col-md-5 col-sm-6 col-xs-12">
+                    <div class="info card">
+    
+                        <!-- Apply your own info here -->
+                        <ul class="text-center center-block aos-init" data-aos="fade" data-aos-delay="200" data-aos-offset="0">
+                            <!-- <li>
+                                <i class="ion-android-call center-block"></i>
+                                <span>+880 - 12345 - 67890</span>
+                            </li>
+                            <li>
+                                <i class="ion-ios-printer center-block"></i>
+                                <span>+880 - 12345 - 67890</span>
+                            </li> -->
+                            <li>
+                                <i class="ion-email center-block"></i>
+                                <span>darren@darrenrector.com</span>
+                            </li>
+                            <!-- <li>
+                                <i class="ion-earth center-block"></i>
+                                <a href="www.darrenrector.com">Personal Website</a>
+                                <span>www.darrenrector.com</span>
+                            </li> -->
+                            <li>
+                                <i class="ion-ios-location center-block"></i>
+                                <span>Minneapolis, Minnesota</span>
+                            </li>
+                        </ul>
+    
+                    </div>
+                </div>
+                <!-- ./Contact Info -->

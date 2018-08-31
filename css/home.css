@@ -20,7 +20,7 @@ a:hover, a:active, a:focus{color:#00dcf8;text-decoration:none;outline:0;}
 .custom-btn:active{color:#fff;outline:0;background-color:#00bcd4 !important;}
 .custom-btn:active:hover{color:#fff;outline:0;background-color:#00bcd4 !important;}
 .custom-btn:active:focus{color:#fff;outline:0;background-color:#00bcd4 !important;}
-.back-to-top{border-radius:50%;text-align:center;position:fixed;bottom:20px;right:20px;z-index:999;visibility:hidden;opacity:0;box-shadow:0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);}
+.back-to-top{border-radius:50%;text-align:center;position:fixed;bottom:20px;right:20px;z-index:999;visibility:hidden;opacity:0;box-shadow:0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);width:60px;height:60px;}
 .back-to-top.back-to-top-is-visible{visibility:visible;opacity:1;}
 #page-loader{background-color:#1c1c1c;height:100%;width:100%;position:fixed;z-index:6000;margin-top:0px;top:0px;}
 #page-loader .text-div{width:100%;position:absolute;top:270px;color:#ffffff;}
@@ -63,7 +63,7 @@ a:hover, a:active, a:focus{color:#00dcf8;text-decoration:none;outline:0;}
 #header nav #side-nav-mask{position:fixed;height:100%;width:100%;background:rgba(0, 0, 0, 0.5);left:0;top:0;opacity:.1;visibility:hidden;z-index:2;transition:all 300ms cubic-bezier(0.4, 0, 0.2, 1);transform:translateZ(0);-webkit-transform:translateZ(0);}
 #header nav #side-nav-mask.visible{visibility:visible;opacity:1;}
 #header h1{font-weight:400;margin-top:75px;font-size:2em;color:#ffffff;text-shadow:2px 2px 2px rgba(0, 0, 0, 0.29);}
-#header h4{margin-top:-25px;font-size:1.2em;line-height:1.5;font-weight:300;color:#fff;margin-bottom:110px;text-shadow:2px 2px 2px rgba(0, 0, 0, 0.29);}
+#header h4{margin-top:-6px;font-size:1.2em;line-height:1.5;font-weight:300;color:#fff;margin-bottom:110px;text-shadow:2px 2px 2px rgba(0, 0, 0, 0.29);}
 #about{position:relative;padding-top:0;margin-top:10px;height:auto;background-color:transparent;}
 #about #profile{animation-delay:500ms;animation-duration:1000ms;position:absolute;width:180px;height:180px;top:-97px;left:50%;margin-left:-90px;z-index:1;display:block;border-radius:50%;background-color:#fff;padding:5px;box-shadow:0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.2);}
 #about #profile img{width:170px;height:170px;border-radius:50%;}
@@ -205,12 +205,12 @@ blockquote blockquote:before{display:none;}
 .interest .interest-topic{margin:10px 15px;}
 .interest .interest-topic i{display:block;font-size:35px;padding:0;color:#424242;}
 .interest .interest-topic span{display:block;}
-.info{width:100%;background-color:#424242;min-height:480px;height:auto;}
+.info{width:100%;background-color:#424242;min-height:240px;height:auto;position:absolute;top:10mm;}
 .info ul{padding:30px 20px;display:block;}
 .info ul li{margin-bottom:15px;letter-spacing:1px;display:block;color:#ffffff;font-size:1em;font-weight:300;display:block;}
 .info ul li i{color:#ffffff;font-size:30px;}
 .contact{width:100%;min-height:480px;height:auto;}
-.contact form{padding:20px 40px;}
+.contact form{padding:20px 40px;position: relative;left:33%;}
 @media screen and (max-width:767px){.contact form{padding:20px 20px;}
 }
 .contact form button{width:150px;top:20px;margin-bottom:25px;}
